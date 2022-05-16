@@ -49,7 +49,7 @@
 
 }
 body{
-  background-color: black;
+  background-color: #4380b1;
 }
 
 .content{
@@ -69,7 +69,7 @@ body{
   margin-top: 5%;
 }
 h1{
-  font-size: 70px;
+  font-size: 60px;
 }
 .mission{
   font-size: 40px;
@@ -183,4 +183,82 @@ button:hover {
   grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
+}
+
+
+
+
+
+
+
+
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 11150px;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 94px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+
+}
+
+
+
+.item-1 {
+  background-image: url('library0.jpeg');
+}
+
+.item-2 {
+  background-image: url('library1.jpg');
+}
+
+.item-3 {
+  background-image: url('library2.jpg');
+}
+
+.item-4 {
+  background-image: url('librar3_manga.jpg');
+}
+
+.item-5 {
+  background-image: url('2nd_1.jfif');
+}
+
+
+.item-6 {
+  background-image: url('2nd_2.jfif');
+}
+
+.item-7 {
+  background-image: url('three.jpg');
+}
+
+.social {
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+
+
 }

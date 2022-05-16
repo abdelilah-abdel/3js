@@ -139,7 +139,7 @@ a Texture covering the canvas, a cubemap as a CubeTexture or an equirectangular 
 
 //scene.background = new THREE.Color(0x83a4d4);
  
-const texture = new THREE.TextureLoader().load('background2.jpg');
+const texture = new THREE.TextureLoader().load('sky.jpg');
 scene.background=texture;
 
 //---------------------------------------------------------
