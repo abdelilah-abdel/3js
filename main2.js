@@ -1,6 +1,3 @@
- import './style.css'
-
-
 import * as THREE from  'https://unpkg.com/three@0.126.1/build/three.module.js' //three js library 
 import * as dat from 'dat.gui'; // the gui library 
 import  {OrbitControls} from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js' // orbit controls library 
